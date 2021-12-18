@@ -10,3 +10,5 @@ scale = Vector2( 4, 2.34375 )
 texture = ExtResource( 1 )
 centered = false
 script = ExtResource( 2 )
+
+[connection signal="item_rect_changed" from="." to="." method="calculate_aspect_ratio"]
